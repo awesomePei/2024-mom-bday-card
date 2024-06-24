@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://mrwallpaper.com/images/hd/ponyo-green-background-dm87hatx6nkls5r8.jpg");
+  font-family: serif;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(46, 48, 51);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.list-of-options {
+  position: relative;
+  background-color: rgb(228, 192, 144);
+  display: none;
+}
+
+.list-of-options p:hover {
+  background-color: white;
+}
+
+.blessing {
+  display: none;
+}
+
+
+/*
+.menu-button:hover + .list-of-options {
+  display: block;
+}*/
